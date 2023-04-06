@@ -11,7 +11,7 @@ let macOSVersion: SupportedPlatform.MacOSVersion = .v10_10
 
 #if os(Linux)
 let extraPackageDependencies: [Package.Dependency] = [
-  .package(url: "https://github.com/apple/swift-crypto.git", from: "1.1.2")
+  .package(url: "https://github.com/apple/swift-crypto.git", from: "2.4.0")
 ]
 #else
 let extraPackageDependencies: [Package.Dependency] = []
